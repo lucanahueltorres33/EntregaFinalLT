@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+  .header {
+    background-image: url("https://www.logogenie.net/images/articles/starbucks-logo8.jpg");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+    .header div {
+      background-color: rgba(0, 0, 0, 0.509);
+      width: 100%;
+      height: 50px; }
+    .header ul {
+      display: flex;
+      list-style: none;
+      color: white;
+      justify-content: flex-end;
+      gap: 1.25rem;
+      padding: 13px 200px 0px 0px;
+      font: size 300px;
+      text-transform: uppercase;
+      font-family: 'Bai Jamjuree', sans-serif; }
+    .header a {
+      text-decoration: none;
+      color: white; }
+  
+  .background-index {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6c976dc2-ebd3-42cd-a6b2-f555d4b633b8/d1bjohw-0a365785-2bc1-4c6c-ac38-57b136235285.jpg/v1/fill/w_1024,h_640,q_75,strp/starbucks_wallpaper_by_tigersystem_d1bjohw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvNmM5NzZkYzItZWJkMy00MmNkLWE2YjItZjU1NWQ0YjYzM2I4XC9kMWJqb2h3LTBhMzY1Nzg1LTJiYzEtNGM2Yy1hYzM4LTU3YjEzNjIzNTI4NS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GCL7mnNXwwBhSVFNLQ-AOalyW9nTA13gJD-DB_o8GzY");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
+  
+    .background-nosotros {
+        background-image: url("https://st2.depositphotos.com/2791409/8121/i/450/depositphotos_81218180-stock-photo-coffee-backgrond.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    opacity: 90%; }
+  
+  .h1-nosotros {
+    background-color: rgb(2, 245, 103);
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: black; }
+  
+  .texto-nosotros {
+    text-align: center;
+    padding: 100px;
+    color: rgb(172, 255, 185);
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 10px; }
+  
+  
+  .barra-contacto {
+    background-color: rgba(0, 0, 0, 0.694);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 15px; }
+    
+    .barra-contacto .redes {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 5.625rem;
+      list-style: none; }
+  
+
+  
+  @media (max-width: 428px) {
+    .header {
+      background-image: url("https://www.logogenie.net/images/articles/starbucks-logo8.jpg");
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%; }
+    .header div ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px 0px 30px;
+      background-color: rgba(0, 0, 0, 0.355); }
+    
+    .barra-contacto {
+      background-color: rgba(0, 0, 0, 0.475);
+      width: 100%;
+      height: 100%;
+      align-items: center; }
+    .redes {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px 0px 195px;
+      justify-content: center;
+      list-style: none; } }
+    
+  @media (max-width: 375px) {
+    .header {
+      background-image: url("https://www.logogenie.net/images/articles/starbucks-logo8.jpg");
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%; }
+    .header div ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px 0px 30px;
+      background-color: rgba(0, 0, 0, 0.526); }
+    
+    .barra-contacto {
+      background-color: rgba(0, 0, 0, 0.475);
+      width: 100%;
+      height: 100%;
+      align-items: center; }
+    .redes {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px 0px 165px;
+      justify-content: center;
+      list-style: none; } }
+  
+  @media (max-width: 320px) {
+    .header {
+      background-image: url("https://www.logogenie.net/images/articles/starbucks-logo8.jpg");
+      width: 100%;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%; }
+    .header div ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0px 0px 30px;
+      background-color: rgba(0, 0, 0, 0.526); }
+    
+    .redes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0px 0px 0px 150px;
+      list-style: none; } }
+
+
+
+.imgProductos {
+    width: 230px;
+    height: 230px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.491);
+    color: #05fc4f;
+    text-align: center;
+}
+
+.colorBoton {
+    color: white;
+    background-color: #00ffd0c2;
+}
+
+.colorBoton:hover {
+    background-color:#00ffd034;
+    color: rgb(0, 0, 0);
+}
+
+.titulocompras{
+    color: rgb(255, 255, 255);
+    
+}
+
+.text-center{
+    color: rgb(255, 255, 255);
+    border-width:1px;
+    border-style: solid;
+    border-color:rgba(0, 207, 152, 0.316);
+    background-color:rgba(1, 252, 143, 0.537);
+    border-radius: 100px;
+}
