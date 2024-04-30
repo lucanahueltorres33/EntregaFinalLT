@@ -194,3 +194,15 @@
     background-color:rgba(1, 252, 143, 0.537);
     border-radius: 100px;
 }
+
+.buttonns {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #07fd49;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #44ff00;
+}

@@ -142,8 +142,7 @@ const eliminarTodoElCarrito = () => {
 
     
     localStorage.clear();
-}
-
+};
 
 
 const total = document.getElementById("total");
@@ -155,4 +154,5 @@ const calcularTotal = () => {
         
     })
     total.innerHTML = `Total: $${totalCompra}`;
-}
+};
+

@@ -1,0 +1,30 @@
+[
+    {
+    "nombre": "Capuccino Vainilla",
+    "descripcion": "capuccino a base de vainilla, con trosos de galletas de vainilla",
+    "medida": "500cc",
+    "precio": "$4000" 
+  },
+    
+      {
+      "nombre": "Capuccino Menta",
+      "descripcion": "capuccino a base de chocolate, con trosos de galletas de chocolate, y salsa sabor menta",
+      "medida": "500cc",
+      "precio": "$4000" 
+    },
+      
+        {
+          "nombre": "latte frutilla",
+          "descripcion": "latte a base de frutilla, con salsa de frutilla",
+          "medida": "500cc",
+          "precio": "$4300" 
+        },
+          
+            {
+              "nombre": "Capuccino Avellanas",
+              "descripcion": "capuccino a base de vainilla, con Salsa de Avellanas",
+              "medida": "500cc",
+              "precio": "$4000"
+             }
+
+]
