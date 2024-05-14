@@ -156,3 +156,13 @@ const calcularTotal = () => {
     total.innerHTML = `Total: $${totalCompra}`;
 };
 
+document.getElementById('jsonBtn').addEventListener('click', cargarJSON);
+
+function cargarJSON() {
+    fetch('nuevos.json')
+    then (funtion(res) {
+        console.log (res);
+
+    })
+
+}
